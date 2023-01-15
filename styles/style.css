@@ -1,0 +1,359 @@
+/* ------------------------
+     google font link
+-------------------------- */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital@0;1&family=Poppins:wght@500&family=Work+Sans:wght@500&display=swap');
+
+/*---------------------------------
+     website common style section 
+-----------------------------------*/
+* {
+    font-family: 'Work Sans', sans-serif;
+}
+
+/* ------------------
+    nav bar style
+--------------------- */
+
+header {
+    background: rgba(255, 144, 14, 0.1);
+    height: 1322px;
+}
+
+.nav-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 50px;
+}
+
+.nav-title {
+    color: #131313;
+    font-weight: 600;
+    font-size: 40px;
+    margin-left: 130px;
+}
+
+.nav-list {
+    color: #424242;
+    display: flex;
+    gap: 30px;
+    list-style: none;
+    font-weight: 500;
+    font-size: 18px;
+    margin-right: 130px;
+}
+
+/* ---------------------
+     banner area style
+ -----------------------*/
+
+.banner {
+    text-align: center;
+    margin-top: 205px;
+    margin-left: 400px;
+    margin-right: 400px;
+}
+
+.banner-title {
+    color: #131313;
+    font-weight: 600;
+    font-size: 50px;
+}
+
+.banner-description {
+    color: #727272;
+    font-weight: 400;
+    font-size: 16px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.explore-btn {
+    color: #FFFFFF;
+    font-weight: 500;
+    font-size: 18px;
+    background: #FF900E;
+    width: 180px;
+    height: 64px;
+    border: none;
+    border-radius: 8px;
+    margin-bottom: 50px;
+}
+
+.banner-img {
+    width: 80%;
+    height: 550px;
+    padding-left: 130px;
+}
+
+/* --------------------------
+    features section style
+---------------------------- */
+
+.features-container {
+    display: flex;
+    gap: 70px;
+    padding-left: 200px;
+    padding-right: 150px;
+}
+
+.features-img-container {
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: repeat(2, 1fr);
+    margin-top: 85px;
+}
+
+.features-img-container img {
+    width: 242px;
+    height: 242px;
+}
+
+.features-description-container {
+    margin-top: 180px;
+}
+
+.features-header .span1 {
+    color: #727272;
+    font-weight: 500;
+    font-size: 35px;
+}
+
+.features-header .span2 {
+    color: #131313;
+    font-weight: 700;
+    font-size: 35px;
+}
+
+.features-header .span3 {
+    color: #FF900E;
+    font-weight: 700;
+    font-size: 35px;
+}
+
+.features-description {
+    color: #727272;
+    font-weight: 400;
+    font-size: 12px;
+}
+
+.explore-now-btn {
+    color: #FFFFFF;
+    font-weight: 500;
+    font-size: 18px;
+    background: #FF900E;
+    width: 180px;
+    height: 64px;
+    border: none;
+    border-radius: 8px;
+    margin-top: 30px;
+}
+
+/*-------------------------------
+     experience section style
+--------------------------------- */
+
+.experience-container {
+    display: flex;
+    gap: 50px;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.experience-service-container {
+    margin-top: 150px;
+}
+
+.experience-container-header {
+    color: #131313;
+    font-weight: 700;
+    font-size: 35px;
+    border-left: 5px solid #FF900E;
+    padding-left: 20px;
+}
+
+.experience-container-description {
+    color: #727272;
+    font-weight: 400;
+    font-size: 14px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.service-info {
+    background: #FFFFFF;
+    width: 400px;
+    height: 100px;
+    box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.06);
+    border-radius: 8px;
+    margin-top: 10px;
+    padding: 30px;
+}
+
+.service-info-header {
+    color: #131313;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.service-info-description {
+    color: #727272;
+    font-weight: 400;
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+.image {
+    margin-top: 130px;
+}
+
+.image img {
+    width: 550px;
+    height: 800px;
+}
+
+.years-btn {
+    color: #FFFFFF;
+    font-weight: 600;
+    font-size: 35px;
+    background: #FF900E;
+    border: none;
+    border-radius: 8px;
+    padding: 10px;
+
+    position: absolute;
+    width: 230px;
+    height: 130px;
+    left: 600px;
+    top: 2750px;
+}
+
+.years-btn span {
+    font-weight: 400;
+    font-size: 18px;
+}
+
+/* -----------------------------
+    achievement section style
+-------------------------------- */
+
+.achievement-sectors {
+    text-align: center;
+}
+
+.achievement-header {
+    margin-top: 130px;
+    padding-left: 120px;
+}
+
+.achievement-title {
+    color: #131313;
+    font-weight: 600;
+    font-size: 35px;
+    margin-bottom: 20px;
+}
+
+.achievement-description {
+    color: #727272;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.achievement-sectors {
+    display: flex;
+    gap: 50px;
+    margin-top: 100px;
+    margin-left: 130px;
+    margin-right: 150px;
+}
+
+.achievement-sectors div:hover {
+    background-color: lightgoldenrodyellow;
+    border: none;
+    box-shadow: 10px 10px 20px rgb(233, 188, 72);
+}
+
+.achievement-sectors div {
+    box-sizing: border-box;
+    border: 1px solid #FF900E;
+    border-radius: 8px;
+    padding-bottom: 10px;
+    padding-top: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    height: 240px;
+    width: 240px;
+}
+
+.achievement-sectors div h3 {
+    color: #424242;
+    font-weight: 500;
+    font-size: 35px;
+}
+
+.achievement-sectors div p {
+    color: #727272;
+    font-weight: 550;
+    font-size: 16px;
+}
+
+/* ------------------------------
+    sponsors logo section style 
+---------------------------------*/
+
+.sponsors-header {
+    margin-top: 180px;
+    text-align: center;
+}
+
+.sponsors-tile {
+    color: #131313;
+    font-weight: 700;
+    font-size: 35px;
+}
+
+.sponsors-description {
+    color: #727272;
+    font-weight: 400;
+    font-size: 14px;
+    margin-top: 24px;
+    margin-bottom: 70px;
+}
+
+.sponsors-company-logo {
+    display: flex;
+    justify-content: space-evenly;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.sponsors-company-logo img {
+    width: 100px;
+    height: 40px;
+}
+
+/* -------------------------
+    website footer style
+--------------------------- */
+
+footer {
+    background: #FFF4E7;
+    text-align: center;
+    margin-left: 120px;
+    margin-top: 130px;
+    margin-bottom: 150px;
+    padding-top: 10px;
+    border-radius: 8px;
+    width: 1100px;
+    height: 60px;
+}
+
+footer p {
+    color: #424242;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+/* ________________________
+    &**THE END**&
+_________________________ */
