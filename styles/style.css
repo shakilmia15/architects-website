@@ -243,7 +243,7 @@ header {
 
 .achievement-header {
     margin-top: 130px;
-    padding-left: 120px;
+    padding-left: 130px;
 }
 
 .achievement-title {
@@ -263,8 +263,8 @@ header {
     display: flex;
     gap: 50px;
     margin-top: 100px;
-    margin-left: 130px;
-    margin-right: 150px;
+    margin-left: 165px;
+    margin-right: 130px;
 }
 
 .achievement-sectors div:hover {
@@ -297,6 +297,40 @@ header {
     font-size: 16px;
 }
 
+/* featured-section style */
+
+.featured-section {
+    display: flex;
+    gap: 96px;
+    margin-top: 130px;
+    margin-bottom: 80px;
+    margin-left: 132px;
+    margin-right: 165px;
+}
+
+.featured-title {
+    color: #131313;
+    font-weight: 600;
+    font-size: 30px;
+    margin-bottom: 16px;
+}
+
+.featured-description {
+    color: #6C6C6C;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.join-now-btn {
+    color: #FFFFFF;
+    font-weight: 500;
+    font-size: 16px;
+    background: #FF900E;
+    width: 165px;
+    height: 55px;
+    border: none;
+}
+
 /* ------------------------------
     sponsors logo section style 
 ---------------------------------*/
@@ -316,7 +350,6 @@ header {
     color: #727272;
     font-weight: 400;
     font-size: 14px;
-    margin-top: 24px;
     margin-bottom: 70px;
 }
 
@@ -328,6 +361,7 @@ header {
 }
 
 .sponsors-company-logo img {
+    mix-blend-mode: luminosity;
     width: 100px;
     height: 40px;
 }
